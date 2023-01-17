@@ -1,0 +1,285 @@
+local Library = loadstring(game:HttpGet("https://textbin.net/raw/t8opsngf6d"))()
+local Window = Library.CreateLib("造车大亨脚本由阿巴巴制作", 'Ocean')
+local Tab = Window:NewTab("放材料")
+local Section1 = Tab:NewSection("传送带1")
+local Section2 = Tab:NewSection("传送带2")
+local Section3 = Tab:NewSection("传送带3")
+local Section4 = Tab:NewSection("传送带4")
+local Section5 = Tab:NewSection("传送带5")
+local Section6 = Tab:NewSection("传送带6")
+    Section1:NewButton("放金属", "ButtonInfo", function()
+    local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = workspace.Tycoons.Green.Model.Lines.Conveyor1
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Drop:InvokeServer(unpack(args)) wait(1) game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Dispose:InvokeServer()
+end)
+Section1:NewButton("放玻璃", "ButtonInfo", function()
+local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = workspace.Tycoons.Green.Model.Lines.Conveyor1
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Drop:InvokeServer(unpack(args)) wait(1) game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Dispose:InvokeServer()
+end)
+Section2:NewButton("放金属", "ButtonInfo", function()
+local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = workspace.Tycoons.Green.Model.Lines.Conveyor2
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Drop:InvokeServer(unpack(args)) wait(1) game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Dispose:InvokeServer()
+end)
+Section2:NewButton("放玻璃", "ButtonInfo", function()
+local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = workspace.Tycoons.Green.Model.Lines.Conveyor2
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Drop:InvokeServer(unpack(args)) wait(1) game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Dispose:InvokeServer()
+end)
+Section3:NewButton("放金属", "ButtonInfo", function()
+local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = workspace.Tycoons.Green.Model.Lines.Conveyor3
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Drop:InvokeServer(unpack(args)) wait(1) game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Dispose:InvokeServer()
+end)
+Section3:NewButton("放玻璃", "ButtonInfo", function()
+local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = workspace.Tycoons.Green.Model.Lines.Conveyor3
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Drop:InvokeServer(unpack(args))
+    end)
+Section4:NewButton("放金属", "ButtonInfo", function()
+local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = workspace.Tycoons.Green.Model.Lines.Conveyor4
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Drop:InvokeServer(unpack(args)) wait(1) game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Dispose:InvokeServer()
+end)
+Section4:NewButton("放玻璃", "ButtonInfo", function()
+local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = workspace.Tycoons.Green.Model.Lines.Conveyor4
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Drop:InvokeServer(unpack(args)) wait(1) game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Dispose:InvokeServer()
+end)
+Section5:NewButton("放金属", "ButtonInfo", function()
+local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = workspace.Tycoons.Green.Model.Lines.Conveyor5
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Drop:InvokeServer(unpack(args)) wait(1) game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Dispose:InvokeServer()
+end)
+Section5:NewButton("放玻璃", "ButtonInfo", function()
+local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = workspace.Tycoons.Green.Model.Lines.Conveyor5
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Drop:InvokeServer(unpack(args)) wait(1) game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Dispose:InvokeServer()
+end)
+Section6:NewButton("放金属", "ButtonInfo", function()
+local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Metal"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = workspace.Tycoons.Green.Model.Lines.Conveyor6
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Drop:InvokeServer(unpack(args)) wait(1) game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Dispose:InvokeServer()
+end)
+Section6:NewButton("放玻璃", "ButtonInfo", function()
+local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = "Glass"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Collect:InvokeServer(unpack(args))local args = {
+    [1] = workspace.Tycoons.Yellow.Model.Lines.Conveyor6
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Drop:InvokeServer(unpack(args)) wait(1) game:GetService("ReplicatedStorage").Packages.Knit.Services.MaterialService.RF.Dispose:InvokeServer()
+end)
